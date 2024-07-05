@@ -1,0 +1,55 @@
+.container{
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 30px;
+    font-family:serif;
+    color:aliceblue;
+    background-color:purple;
+    padding: 5px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.slider1{
+    width: 70%;
+    margin: 0 auto;
+}
+.slider2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.m{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.text{
+    display: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.text.appear{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    animation: 3s fadeIn;
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
